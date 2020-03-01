@@ -4,7 +4,17 @@ require(`dotenv`).config({
 
 module.exports = {
   siteMetadata: {
-    siteTitleAlt: `Minimal Blog - Gatsby Theme`,
+    siteTitle: `Jep`,
+    siteTitleAlt: `José Padilla's Blog`,
+    siteHeadline: `José Padilla's Blog`,
+    siteUrl: `https://jep-1.netlify.com`,
+    // Used for SEO
+    siteDescription: `A space for me to talk about things I care about`,
+    // Will be set on the <html /> tag
+    siteLanguage: `en`,
+    siteImage: `/banner.jpg`,
+    // Twitter Handle
+    author: `@jpadilla1293`,
   },
   plugins: [
     {
@@ -23,11 +33,7 @@ module.exports = {
         externalLinks: [
           {
             name: `Twitter`,
-            url: `https://twitter.com/lekoarts_de`,
-          },
-          {
-            name: `Instagram`,
-            url: `https://www.instagram.com/lekoarts.de/`,
+            url: `https://twitter.com/jpadilla1293`,
           },
         ],
       },
@@ -42,9 +48,9 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `minimal-blog - @lekoarts/gatsby-theme-minimal-blog`,
-        short_name: `minimal-blog`,
-        description: `Typography driven, feature-rich blogging theme with minimal aesthetics. Includes tags/categories support and extensive features for code blocks such as live preview, line numbers, and code highlighting.`,
+        name: `José Padilla's blog`,
+        short_name: `jeps-blog`,
+        description: `A space for me to talk about things I care about`,
         start_url: `/`,
         background_color: `#fff`,
         theme_color: `#6B46C1`,
