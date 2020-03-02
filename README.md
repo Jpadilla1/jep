@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/a02f9c83-4ec2-434d-9ae7-1b0992e54be1/deploy-status)](https://app.netlify.com/sites/jose-padilla/deploys)
+
 <p align="center">
   <a href="https://minimal-blog.lekoarts.de">
     <img alt="LekoArts" src="https://img.lekoarts.de/gatsby/gatsby-site-illustration.png" />
