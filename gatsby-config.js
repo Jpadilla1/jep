@@ -4,7 +4,7 @@ require(`dotenv`).config({
 
 module.exports = {
   siteMetadata: {
-    siteTitle: `Jep`,
+    siteTitle: `José Padilla`,
     siteTitleAlt: `José Padilla's Blog`,
     siteHeadline: `José Padilla's Blog`,
     siteUrl: `https://jep-1.netlify.com`,
@@ -49,7 +49,7 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `José Padilla's blog`,
-        short_name: `jeps-blog`,
+        short_name: `jps-blog`,
         description: `A space for me to talk about things I care about`,
         start_url: `/`,
         background_color: `#fff`,
